@@ -7,3 +7,8 @@
   from = "/comments"
   to = "http://jamstack-comments.netlify.com"
   status = 200
+
+[[redirects]]
+  from = "/comments*"
+  to = "http://jamstack-comments.netlify.com:splat"
+  status = 200
