@@ -5,11 +5,12 @@
 
 
 [[redirects]]
-  from = "/comments/*"
-  to = "http://jamstack-comments.netlify.com/*"
+  from = "/comments*"
+  to = "http://jamstack-comments.netlify.com/:splat"
   status = 200
 
 [[redirects]]
-  from = "/twavatar/*"
-  to = "https://twavatar.netlify.com/*"
+  from = "/twavatar*"
+  to = "https://twavatar.netlify.com/:splat"
   status = 200
+
